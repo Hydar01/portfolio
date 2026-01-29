@@ -30,11 +30,17 @@ fetch('data/projects.json')
               </a>
             </div>
           </div>
-
         </div>
       `;
     });
 
-    // re-init mixitup after loading
-    mixitup('.portfolio-massonary-container');
+    // ✅ INIT MIXITUP AFTER DOM IS READY
+    mixitup('#portfolioContainer', {
+      selectors: {
+        target: '.portfolio-massonary-items'
+      },
+      animation: {
+        duration: 300
+      }
+    });
   });

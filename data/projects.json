@@ -7,6 +7,27 @@
     "filter": "graphic all"
   },
   {
+    "id": "Twelve",
+    "type": "Graphic Design",
+    "title": "Social Media Poster Design",
+    "image": "img/astria_ig.jpg",
+    "filter": "graphic all"
+  },
+  {
+    "id": "Thirteen",
+    "type": "Graphic Design",
+    "title": "Social Media Poster Design",
+    "image": "img/astria_fb.jpg",
+    "filter": "graphic all"
+  },
+  {
+    "id": "Fourteen",
+    "type": "Graphic Design",
+    "title": "Website Hero",
+    "image": "img/astreia_hero.jpg",
+    "filter": "graphic all"
+  },
+  {
     "id": "Two",
     "type": "Graphic Design",
     "title": "Global Pathways Solution",
@@ -90,4 +111,5 @@
     "image": "img/g8.jpg",
     "filter": "web all"
   }
+
 ]
