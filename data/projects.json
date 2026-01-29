@@ -1,0 +1,93 @@
+[
+  {
+    "id": "One",
+    "type": "Graphic Design",
+    "title": "BizApp Global Tech Flyer",
+    "image": "img/g1.jpg",
+    "filter": "graphic all"
+  },
+  {
+    "id": "Two",
+    "type": "Graphic Design",
+    "title": "Global Pathways Solution",
+    "image": "img/g2.jpg",
+    "filter": "graphic all"
+  },
+  {
+    "id": "Three",
+    "type": "Graphic Design",
+    "title": "Jos Heritage",
+    "image": "img/g3.jpg",
+    "filter": "graphic all"
+  },
+  {
+    "id": "Five",
+    "type": "Graphic Design",
+    "title": "Jos Festival and award",
+    "image": "img/g4.jpg",
+    "filter": "graphic all"
+  },
+  {
+    "id": "Eleven",
+    "type": "Graphic Design",
+    "title": "Staff ID Card",
+    "image": "img/g9.png",
+    "filter": "graphic all"
+  },
+  {
+    "id": "Nine",
+    "type": "Graphic Design",
+    "title": "Flyer Design for Dee Plu-ug Service",
+    "image": "img/g6.jpg",
+    "filter": "graphic all"
+  },
+  {
+    "id": "NineB",
+    "type": "Graphic Design",
+    "title": "Flyer Design for Dee Plu-ug Service",
+    "image": "img/g7.jpg",
+    "filter": "graphic all"
+  },
+  {
+    "id": "Eight",
+    "type": "Graphic Design",
+    "title": "AY Graphics",
+    "image": "img/g66.jpg",
+    "filter": "graphic all"
+  },
+  {
+    "id": "Six",
+    "type": "Graphic Design",
+    "title": "logo combination",
+    "image": "img/g5.png",
+    "filter": "graphic all"
+  },
+  {
+    "id": "Four",
+    "type": "Web Design",
+    "title": "BizApp Wallet",
+    "image": "img/dashboard1.jpeg",
+    "filter": "web all"
+  },
+  {
+    "id": "Seven",
+    "type": "Web Design",
+    "title": "Portfolio Website Dashboard",
+    "image": "img/dashboard.jpg",
+    "filter": "web all"
+  },
+  {
+    "id": "SevenB",
+    "type": "Web Design",
+    "title": "Ecommerce Website Dashboard",
+    "image": "img/dashboard2.png",
+    "filter": "web all"
+  },
+  {
+    "id": "Ten",
+    "type": "Web Design",
+    "title": "Global Partners Solution Limited",
+    "image": "img/g8.jpg",
+    "filter": "web all"
+  }
+]
