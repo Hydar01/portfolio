@@ -550,6 +550,28 @@
     <script src="js/jquery.waypoints.min.js"></script>
     <script src="js/jquery.counterup.min.js"></script>
     <script src="js/projects.js"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+
+    // Wait until items are generated from JSON
+    setTimeout(() => {
+
+        const mixer = mixitup('#portfolioContainer', {
+        selectors: {
+            target: '.portfolio-massonary-items'
+        },
+        animation: {
+            duration: 300
+        }
+        });
+
+        console.log("MixItUp initialized after JSON render");
+
+    }, 200); // small delay to ensure items exist
+
+    });
+    </script>
+
     <!-- Main JS script -->
     <script src="js/main.js"></script>
 </body>
