@@ -523,6 +523,27 @@
     </div>
 
     <!-- Jquery script -->
+     <script>
+        document.addEventListener("DOMContentLoaded", function () {
+
+        // Wait until items are generated from JSON
+        setTimeout(() => {
+
+            const mixer = mixitup('#portfolioContainer', {
+            selectors: {
+                target: '.portfolio-massonary-items'
+            },
+            animation: {
+                duration: 300
+            }
+            });
+
+            console.log("MixItUp initialized after JSON render");
+
+        }, 200); // small delay to ensure items exist
+
+        });
+    </script>
     <script src="js/jquery-3.6.4.min.js"></script>
     <!-- Bootstrap Script -->
     <script src="js/bootstrap.min.js"></script>
@@ -550,32 +571,8 @@
     <script src="js/jquery.waypoints.min.js"></script>
     <script src="js/jquery.counterup.min.js"></script>
     <script src="js/projects.js"></script>
-    <script>
-    document.addEventListener("DOMContentLoaded", function () {
-
-    // Wait until items are generated from JSON
-    setTimeout(() => {
-
-        const mixer = mixitup('#portfolioContainer', {
-        selectors: {
-            target: '.portfolio-massonary-items'
-        },
-        animation: {
-            duration: 300
-        }
-        });
-
-        console.log("MixItUp initialized after JSON render");
-
-    }, 200); // small delay to ensure items exist
-
-    });
-    </script>
 
     <!-- Main JS script -->
     <script src="js/main.js"></script>
 </body>
-
-
-<!-- Mirrored from credesign.vercel.app/onePage/onePageOne/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 27 Jul 2025 10:31:31 GMT -->
 </html>
